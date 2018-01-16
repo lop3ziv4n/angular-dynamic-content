@@ -1,9 +1,8 @@
 <div
   class="form-group"
   [formGroup]="group">
-  <label>{{ config.label }}</label>
-  <input
-    type="text"
-    [attr.placeholder]="config.placeholder"
-    [formControlName]="config.name">
+  <label for="txt">{{ config.label }}</label>
+  <input class="form-control" id="txt" type="text"
+         [attr.placeholder]="config.placeholder"
+         [formControlName]="config.name">
 </div>

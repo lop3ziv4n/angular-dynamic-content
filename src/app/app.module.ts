@@ -9,6 +9,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {RuntimeModule} from './runtime/runtime.module';
 import {DynamicCompModule} from './dynamic-comp/dynamic-comp.module';
 import {ReactiveFormModule} from './reactive-form/reactive-form.module';
+import {DynamicFormModule} from './dynamic-form/dynamic-form.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import {ReactiveFormModule} from './reactive-form/reactive-form.module';
     DynamicCardModule,
     RuntimeModule,
     DynamicCompModule,
-    ReactiveFormModule
+    ReactiveFormModule,
+    DynamicFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]

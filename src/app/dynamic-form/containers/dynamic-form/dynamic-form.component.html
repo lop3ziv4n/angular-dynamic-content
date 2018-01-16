@@ -1,0 +1,12 @@
+<form
+  class="form-horizontal"
+  [formGroup]="form"
+  (submit)="handleSubmit($event)">
+  <hr>
+  <ng-container
+    *ngFor="let field of config;"
+    appDynamicField
+    [config]="field"
+    [group]="form">
+  </ng-container>
+</form>

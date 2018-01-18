@@ -10,6 +10,7 @@ import {RuntimeModule} from './runtime/runtime.module';
 import {DynamicCompModule} from './dynamic-comp/dynamic-comp.module';
 import {ReactiveFormModule} from './reactive-form/reactive-form.module';
 import {DynamicFormModule} from './dynamic-form/dynamic-form.module';
+import {DndContainerModule} from './dnd-container/dnd-container.module';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import {DynamicFormModule} from './dynamic-form/dynamic-form.module';
     RuntimeModule,
     DynamicCompModule,
     ReactiveFormModule,
-    DynamicFormModule
+    DynamicFormModule,
+    DndContainerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

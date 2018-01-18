@@ -4,6 +4,8 @@ npm install bootstrap --save
 
 npm install jquery --save
 
+npm install ng2-dnd --save
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server

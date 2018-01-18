@@ -7,6 +7,7 @@ import {RuntimeContentComponent} from './runtime/runtime-content/runtime-content
 import {AppCompComponent} from './dynamic-comp/app-comp/app-comp.component';
 import {AppFormComponent} from './reactive-form/app-form/app-form.component';
 import {AppDynamicFormComponent} from './dynamic-form/app-dynamic-form/app-dynamic-form.component';
+import {MultiDataDndComponent} from './dnd-container/multi-data-dnd/multi-data-dnd.component';
 
 const routes: Routes = [
   {path: '', component: AppComponent},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'runtime-content', component: RuntimeContentComponent},
   {path: 'dynamic-comp', component: AppCompComponent},
   {path: 'reactive-form', component: AppFormComponent},
-  {path: 'dynamic-form', component: AppDynamicFormComponent}
+  {path: 'dynamic-form', component: AppDynamicFormComponent},
+  {path: 'data-dnd', component: MultiDataDndComponent}
 ];
 
 @NgModule({

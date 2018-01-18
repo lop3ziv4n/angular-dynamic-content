@@ -1,5 +1,6 @@
 <div
   class="form-group"
+  [ngClass]="config.class"
   [formGroup]="group">
   <label for="txt">{{ config.label }}</label>
   <input class="form-control" id="txt" type="text"

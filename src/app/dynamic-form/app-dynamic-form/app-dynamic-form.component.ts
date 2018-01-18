@@ -18,7 +18,16 @@ export class AppDynamicFormComponent implements OnInit, AfterViewInit {
       label: 'Full name',
       name: 'name',
       placeholder: 'Enter your name',
+      class: ['col-md-6'],
       validation: [Validators.required, Validators.minLength(4)]
+    },
+    {
+      type: 'input',
+      label: 'Full surname',
+      name: 'surname',
+      placeholder: 'Enter your surname',
+      class: ['col-md-6'],
+      validation: [Validators.required, Validators.minLength(5)]
     },
     {
       type: 'select',
@@ -26,11 +35,13 @@ export class AppDynamicFormComponent implements OnInit, AfterViewInit {
       name: 'food',
       options: ['Pizza', 'Hot Dogs', 'Knakworstje', 'Coffee'],
       placeholder: 'Select an option',
+      class: ['col-md-12'],
       validation: [Validators.required]
     },
     {
       type: 'button',
       label: 'Submit',
+      class: ['col-md-6'],
       name: 'submit'
     }
   ];

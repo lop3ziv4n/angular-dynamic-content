@@ -16,9 +16,10 @@
                         </div>
                         <div class="panel-body">
                             <ul class="list-group">
-                                <li *ngFor="let item of container.items; let x = index" class="list-group-item"
-                                    dnd-sortable [sortableIndex]="x" [dragEnabled]="!dragOperation"
-                                    [dragData]="item">{{item.name}}</li>
+                              <li *ngFor="let item of container.items; let x = index" class="list-group-item"
+                                  dnd-sortable [sortableIndex]="x" [dragEnabled]="!dragOperation"
+                                  [dragData]="item">{{item.name}}
+                              </li>
                             </ul>
                         </div>
                     </div>

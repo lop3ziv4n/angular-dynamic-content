@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MultiDataDndComponent } from './multi-data-dnd/multi-data-dnd.component';
-import { DndModule } from 'ng2-dnd';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {MultiDataDndComponent} from './multi-data-dnd/multi-data-dnd.component';
+import {DndModule} from 'ng2-dnd';
 import {FormsModule} from '@angular/forms';
 
 @NgModule({
@@ -17,4 +17,5 @@ import {FormsModule} from '@angular/forms';
     MultiDataDndComponent
   ]
 })
-export class DndContainerModule { }
+export class DndContainerModule {
+}

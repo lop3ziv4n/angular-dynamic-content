@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {Container} from '../models/container'
-import {Item} from '../models/item'
+import {Component, OnInit} from '@angular/core';
+import {Container} from '../models/container';
 
 @Component({
   selector: 'app-multi-data-dnd',
@@ -9,7 +8,7 @@ import {Item} from '../models/item'
 })
 export class MultiDataDndComponent implements OnInit {
 
-  dragOperation: boolean = false;
+  dragOperation = false;
 
   containers: Container[] = [
     {
@@ -29,7 +28,8 @@ export class MultiDataDndComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
